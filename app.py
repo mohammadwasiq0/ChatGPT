@@ -4,7 +4,7 @@ st.title('🦜🔗 Quickstart App')
 st.write("## Connect me on Linkedin [Link](https://www.linkedin.com/in/mohammadwasiq0/)")
 st.write("### [Get API Link](https://platform.openai.com/account/api-keys?ref=blog.streamlit.io)")
 # openai_api_key = st.sidebar.text_input('OpenAI API Key')
-openai_api_key = "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"
+openai_api_key = "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"
 def generate_response(input_text):
   llm = OpenAI(temperature=0.7, openai_api_key=openai_api_key)
   st.info(llm(input_text))
